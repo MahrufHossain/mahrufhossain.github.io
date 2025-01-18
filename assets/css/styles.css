@@ -1,0 +1,65 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    color: #FF6347; /* Cool accent color */
+  }
+  
+  /* Main content */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Links */
+  a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Mobile-first responsiveness */
+  @media (max-width: 600px) {
+    body {
+      padding: 10px;
+    }
+  
+    header h1 {
+      font-size: 2.5rem;
+    }
+  
+    main {
+      padding: 10px;
+    }
+  }
+  
+  /* For medium screens (like tablets) */
+  @media (max-width: 900px) {
+    header h1 {
+      font-size: 2.8rem;
+    }
+  }
+  
