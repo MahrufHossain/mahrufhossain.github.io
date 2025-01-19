@@ -1,0 +1,39 @@
+/* Style for the Journey Section */
+.section-journey {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+.journey-entry {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.journey-entry h4 {
+    font-size: 24px;
+    color: #212121;
+    margin-bottom: 15px;
+}
+
+.journey-description {
+    font-size: 16px;
+    color: #030303;
+    margin-bottom: 20px;
+}
+
+.journey-entry .btn {
+    background-color: #212121;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.journey-entry .btn:hover {
+    background-color: #4DA1A9;
+    color: white;
+}

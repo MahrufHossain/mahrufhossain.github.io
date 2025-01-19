@@ -9,9 +9,9 @@
 
     <title>Mahruf Hossain</title>
 
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="Mahruf Hossain's portfolio showcasing skills, projects, and contact information.">
+    <meta name="keywords" content="portfolio, web development, Mahruf Hossain, projects, contact, journey">
+    
 
     <!-- Mobile Specific Metas
     ================================================== -->
@@ -20,7 +20,9 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <!-- Favicon
     ================================================== -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
@@ -35,12 +37,6 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 <body>
 
@@ -49,7 +45,8 @@
             <div class="container">
                 <div class="navbar-header page-scroll">
 
-                    <button type="button" class="navbar-toggle collapsed" data-target="#portfolio-perfect-collapse" aria-expanded="false" >
+                    <button type="button" class="navbar-toggle collapsed" data-target="#portfolio-perfect-collapse" aria-expanded="false" aria-label="Toggle navigation">
+
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -66,9 +63,11 @@
                         <li class="page-scroll"><a href="#hero">Home</a></li>
                         <li class="page-scroll"><a href="#about">About</a></li>
                         <li class="page-scroll"><a href="#Goals">Goals</a></li>
+
+                        <li class="page-scroll"><a href="journey.html">Journey</a></li>
                         <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
                         <li class="page-scroll"><a href="#contact">Contact</a></li>
-                        <li class="page-scroll"><a href="#Journey">Journey</a></li>
+
 
                         
                     </ul><!-- /.navbar-nav -->
@@ -77,24 +76,32 @@
 
             </div>
         </nav><!-- /.primary-navigation -->
-    </header><!-- /#header -->
+    </header>
 
     <div id="hero" class="hero">
         <div class="container">
             <div class="row">
 
                 <div class="col-md-6">
-                    <h1>Mahruf Hossain</h1>
+                    <!-- Name and Titles -->
+                    <h1 class="name">Mahruf Hossain</h1>
+                    
+                    <!-- Scrollable section with job titles -->
                     <div class="page-scroll">
                         <p class="job-title">Student</p>
-                        <!--<a href="#contact" class="btn btn-fill ">Hire me</a>-->
-                        <div class="clearfix visible-xxs"></div>
-                        <a href="#portfolio" class="btn btn-border">Explore more</a>
+                        <p class="job-title"><b>EEE</b> @ University of Dhaka</p>
+                    </div>
+                    
+                    <!-- Action Buttons (can be used for Hire Me or Portfolio) -->
+                    <div class="btn-group">
+                        <!-- <a href="#contact" class="btn btn-fill">Hire Me</a> -->
+                        <!-- <a href="#portfolio" class="btn btn-border">Explore More</a> -->
                     </div>
                 </div>
+                
             
                 <div class="col-md-6 text-right">
-                    <img src="assets/img/maahi.png" alt="alex-vidal">
+                    <img src="assets/img/maahi.png" alt="Mahruf Hossain portrait">
                 </div>
 
             </div>
@@ -109,7 +116,8 @@
                     <div class="col-md-6 col-md-offset-3">
                         <h2>About</h2>
                         <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                        <p>Hello! I'm Mahruf Hossain, currently enrolled in <b>Departement of Electrical and Electronic Engineering</b> at <b> University of Dhaka</b>. I am passionate about exploring new technologies and diving deep into topics that ignite my curiosity. </p>
+                        <p>Hello! I'm Mahruf Hossain, currently enrolled in <b>Department of Electrical and Electronic Engineering</b> at <b>University of Dhaka</b>. I have a strong passion for exploring new technologies, particularly in the fields of electronics and computer system. I enjoy diving deep into topics that ignite my curiosity and enhance my skills.</p>
+
                         <!--<a href="http://www.grad.illinois.edu/sites/default/files/pdfs/cvsamples.pdf" class="btn btn-fill" target="_blank" download>Download my cv</a>-->
                     </div>
                 </div>
@@ -139,7 +147,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="skill">
-                            <h4>Computer Aided Design</h4>
+                            <h4>Computer-Aided Design</h4>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" data-transitiongoal="60"></div><!-- /.progress-bar -->
                             </div><!-- /.progress -->
@@ -153,7 +161,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="skill">
-                            <h4> Circuit Simulation</h4>
+                            <h4>Circuit Simulation</h4>
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" data-transitiongoal="50"></div><!-- /.progress-bar -->
                             </div><!-- /.progress -->
@@ -165,9 +173,103 @@
                             </div><!-- /.progress -->
                         </div><!-- /.skill -->
                     </div>
+                    <!-- Added Machine Learning and Data Analysis Skills -->
+                    
                 </div>
             </div>
-        </section><!-- /.secton-skills -->
+        </section>
+        <section class="site-section section-tools">
+            <div class="container">
+                <div class="text-center">
+                    <h3>Technologies I've Worked With</h3>
+                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- Start Tools Wrapper -->
+                        <div class="tools-wrapper">
+                            <!-- Machine Learning Libraries -->
+                            <div class="tool-box">
+                                <h4><i class="fab fa-python"></i> Machine Learning Libraries</h4>
+                                <ul>
+                                    <li><strong>Scikit-Learn</strong></li>
+                                    <li><strong>XGBoost</strong></li>
+                                    <li><strong>LightGBM</strong></li>
+                                </ul>
+                            </div>
+        
+                            <!-- Data Science Libraries -->
+                            <div class="tool-box">
+                                <h4><i class="fas fa-chart-line"></i> Data Science Libraries</h4>
+                                <ul>
+                                    <li><strong>Pandas</strong></li>
+                                    <li><strong>NumPy</strong></li>
+                                    <li><strong>Matplotlib</strong></li>
+                                    <li><strong>Seaborn</strong></li>
+                                    <li><strong>SciPy</strong></li>
+                                </ul>
+                            </div>
+        
+                            <!-- Operating Systems & Development Tools -->
+                            <div class="tool-box">
+                                <h4><i class="fas fa-laptop"></i> Operating Systems & Development Tools</h4>
+                                <ul>
+                                    <li><strong>Linux</strong></li>
+                                    <li><strong>Windows</strong></li>
+                                    <li><strong>Docker</strong></li>
+                                    <li><strong>Git</strong></li>
+                                    <li><strong>Visual Studio Code</strong></li>
+                                    <li><strong>Vim</strong></li>
+                                    <li><strong>Office</strong></li>
+                                </ul>
+                            </div>
+        
+                            <!-- C and Embedded Systems -->
+                            <div class="tool-box">
+                                <h4><i class="fas fa-microchip"></i> C and Embedded Systems</h4>
+                                <ul>
+                                    <li><strong>C</strong></li>
+                                    <!-- <li><strong>Embedded C</strong></li> -->
+                                    <li><strong>Microcontrollers</strong></li>
+                                    <li><strong>Arduino</strong></li>
+                                    <!-- <li><strong>Raspberry Pi</strong></li>
+                                    <li><strong>Embedded Systems Design</strong></li>
+                                    <li><strong>RTOS</strong></li>
+                                    <li><strong>PCB Design</strong></li> -->
+                                </ul>
+                            </div>
+        
+                            <!-- Circuit Simulation -->
+                            <div class="tool-box">
+                                <h4><i class="fas fa-plug"></i> Circuit Simulation</h4>
+                                <ul>
+                                    <li><strong>KiCad</strong></li>
+                                    <li><strong>PSPICE</strong></li>
+                                    <!-- <li><strong>LTspice</strong></li> -->
+                                </ul>
+                            </div>
+        
+                            <!-- Computer-Aided Design (CAD) -->
+                            <div class="tool-box">
+                                <h4><i class="fas fa-cogs"></i> Computer-Aided Design (CAD)</h4>
+                                <ul>
+                                    <li><strong>AutoCAD</strong></li>
+                                    <!-- <li><strong>SolidWorks</strong></li>
+                                    <li><strong>Fusion 360</strong></li> -->
+                                </ul>
+                            </div>
+      
+                        </div>
+                        <!-- End Tools Wrapper -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        
+        
+        <!-- /.secton-skills -->
 
         <section id="Goals" class="site-section section-services overlay text-center">
             <div class="container">
@@ -180,27 +282,64 @@
                         <div class="service">
                             <img src="assets/img/front-end.svg" alt="Front End Developer">
                             <h4>Power User</h4>
-                            <p>On my way to become a powerful Linux and Windows user.</p>
+                            <p>Aiming to master advanced Linux and Windows system administration skills.</p>
                         </div><!-- /.service -->
                     </div>
                     <div class="col-sm-4">
                         <div class="service">
                             <img src="assets/img/back-end.svg" alt="Back End Developer">
                             <h4>Embedded System</h4>
-                            <p>Learn the applications of embedded system.</p>
+                            <p>Learning about microcontrollers, IoT applications, and embedded C programming.</p>
                         </div><!-- /.service -->
                     </div>
                     <div class="col-sm-4">
                         <div class="service">
                             <img src="assets/img/consultancy.svg" alt="Coding">
                             <h4>System Level Programming</h4>
-                            <p>Learn to code in system level languages and understand how computer works at the core level.</p>
+                            <p>Focusing on C/C++, assembly language, and low-level OS programming.</p>
                         </div><!-- /.service -->
                     </div>
                 </div>
             </div>
         </section><!-- /.secton-services -->
-
+        <section id="Journey" class="site-section section-journey">
+            <div class="container">
+                <div class="text-center">
+                    <h3>Journey</h3>
+                    <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                    <h4>Welcome to the Journey</h4>
+                    <p class="journey-description">
+                        Let's learn and grow together, through sharing insightful tutorials and hands-on experiences.
+                    </p>
+                </div>
+                <div class="row">
+                    <!-- Journey Entry 1 -->
+                    <div class="col-md-6">
+                        <div class="journey-entry">
+                            <h4><img src="/assets/img/icons8-c-programming.svg" alt="C Logo" class="journey-logo"> C</h4>
+                            <p class="journey-description">
+                                The world has seen many programming languages, but C remains the King. Let's dive deep into the core concepts of C programming.
+                            </p>
+                            <a href="link-to-tutorial-or-project" class="btn btn-border">Read Tutorial</a>
+                        </div>
+                    </div>
+                    <!-- Journey Entry 2 -->
+                    <div class="col-md-6">
+                        <div class="journey-entry">
+                            <h4><img src="/assets/img/icons8-python.svg" alt="Python Logo" class="journey-logo"> Python</h4>
+                            <p class="journey-description">
+                                Want to have versatile power over the coding world? Python lets us achieve just that! Let's dive in.
+                            </p>
+                            <a href="link-to-tutorial-or-project" class="btn btn-border">Read Tutorial</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Add More Entries As You Go -->
+                </div>
+            </div>
+        </section>
+        
+        
         <section id="portfolio" class="site-section section-portfolio">
             <div class="container">
                 <div class="text-center">
@@ -291,7 +430,7 @@
             </div>
         </section>--><!-- /.section-counters -->
 
-        <section id="contact" class="site-section section-form text-center">
+<!--        <section id="contact" class="site-section section-form text-center">
             <div class="container">
 
                 <h3>Contact</h3>
@@ -308,32 +447,52 @@
                             <textarea name="message" id="mesaage" class="form-control" placeholder="Message" required></textarea>
                         </div>
                     </div>
-                    <button href="#" class="btn btn-border" type="submit">Submit <span class="glyphicon glyphicon-send"></span></button>
+                    <button class="btn btn-border" type="submit">Submit <span class="glyphicon glyphicon-send"></span></button>
                 </form>
             </div>
         </section><!-- /.section-form -->
-
+    
     </main><!-- /#main -->
 
     <footer id="colophon" class="site-footer">
         <div class="container">
             <div class="row">
                 <div class="col-sm-4 col-xs-12">
-                    <a class="icon facebook-bg" href=""><i class="icon-facebook"></i></a>
-                    <!--<a class="icon twitter-bg" href="#"><i class="icon-twitter"></i></a>-->
-                    <!--<a class="icon gplus-bg" href="#"><i class="icon-linkedin"></i></a>-->
-                    <a class="icon linkedin-bg" href="#"><i class="icon-gplus"></i></a>
-                    <a class="icon linkedin-bg" href="#"><i class="icon-gplus"></i></a>
+                    <!-- Facebook Icon -->
+                    <a class="icon facebook-bg" href="https://www.facebook.com/mahruf.hossain.946/">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <!-- Twitter Icon -->
+                    <!--<a class="icon twitter-bg" href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>-->
+                    <!-- LinkedIn Icon -->
+                    <a class="icon linkedin-bg" href="https://www.linkedin.com/in/mahruf-hossain-4804a7221">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <!-- GitHub Icon -->
+                    <a class="icon github-bg" href="https://github.com/MahrufHossain">
+                        <i class="fab fa-github"></i>
+                    </a>
                 </div>
-                <div class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3"><p class="copyright">2025. All Rights Reserved</p></div>
+                <div class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3">
+                    <p class="copyright">2025. All Rights Reserved.</p>
+                </div>
                 <div class="col-sm-4 col-xs-3">
                     <div class="text-right page-scroll">
-                        <a class="icon icon-up-bg" href="#hero"><i class="icon-up"></i></a>
+                        <a class="icon icon-up-bg" href="#hero">
+                            <i class="fas fa-arrow-up"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </footer><!-- /#footer -->
+    </footer>
+
+
+    <a id="contact"></a>
+
+    
 
     <!-- Modals -->
     <div id="portfolioItem1" class="modal fade" role="dialog">

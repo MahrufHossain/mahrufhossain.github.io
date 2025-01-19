@@ -1,11 +1,3 @@
-/*
- * Theme Name: 
- * Theme URI: 
- * Author: Milan Savov
- * Author URI/Mail: milan.savov@gmail.com
- * Version: 1.0
- * */
-
 /* FONT
 ================================================== */
 @font-face {
@@ -312,6 +304,136 @@ html, body {
 .progress-bar {
     background-color: #212121;  
 }
+/* Section: Tools I Use */
+.section-tools {
+    padding-bottom: 120px;
+}
+
+.section-tools h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+/* Optional: Styling for each column */
+.col-md-4 {
+    margin-bottom: 30px; /* Space between each column */
+}
+
+.section-tools .row {
+    display: flex;
+    justify-content: space-between;
+}
+/* Tools Section */
+.site-section.section-tools {
+    padding: 60px 0;
+}
+
+/* Wrapper for the tools section */
+.tools-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2 columns layout */
+    gap: 30px;
+    padding: 20px;
+}
+
+/* Box around each tool section */
+.tool-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Add hover effect for interactivity */
+.tool-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Tool Heading */
+.tool-box h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Tool List */
+.tool-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tool-box ul li {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+/* Icons inside the headings */
+.tool-box i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+/* Style for the Journey Section */
+.section-journey {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+.journey-entry {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.journey-entry h4 {
+    font-size: 24px;
+    color: #212121;
+    margin-bottom: 15px;
+}
+
+.journey-description {
+    font-size: 16px;
+    color: #030303;
+    margin-bottom: 20px;
+}
+
+.journey-entry .btn {
+    background-color: #212121;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.journey-entry .btn:hover {
+    background-color: #4DA1A9;
+    color: white;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .journey-entry {
+        margin-bottom: 20px;
+    }
+}
+
+
 
 /* Section: Services */
 .section-services {
